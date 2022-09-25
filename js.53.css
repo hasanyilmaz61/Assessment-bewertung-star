@@ -1,0 +1,51 @@
+*{box-sizing: border-box;}
+
+body{margin: 0;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(162, 173, 176);
+}
+
+#star{
+
+display: flex;
+
+background-color: beige;
+padding: 30px 50px;
+
+
+}
+
+
+button{margin-top: 20px;
+    background-color: orange;
+    color: white;
+    padding: 15px 30px;
+    outline: none;
+    font-weight: bold;
+    font-size: 1.2em;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+
+
+}
+button:hover{
+    background-color: rgb(227, 175, 77);
+}
+
+#star>i{
+margin: 0 3px;
+font-size: 40px;
+cursor: pointer;
+
+}
+
+#star>.Aktiv, #star>.Geklict{
+    color: rgb(224, 174, 9);
+
+
+}
